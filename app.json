@@ -1,0 +1,14 @@
+{
+  "name": "Soikem",
+  "description": "Hanya recode",
+  "repository": "https://github.com/luigmntng/SoikemMd",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "sc bot",
+    "multi-device",
+    "whatsapp-bot-multi-device",
+    "whatsapp-bot"
+  ]
+}
