@@ -72,9 +72,9 @@ Simple wa md
 ~ Selamat Memakai~
 
 A : bg Luwh whibuh yh ?
-Gweh : ingyah 
-A : _-
-B : gaje lu kont*** (kontrol) :)
+
+
+
 
 
  [![AhmdLui](https://github.com/AlyaaXd.png?size=100)](https://github.com/Luigmntng) 
