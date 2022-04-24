@@ -123,9 +123,7 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate)
     conn.ev.off('creds.update', conn.credsUpdate)
   }
-
-let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-let mentionedJid = [who]
+  
   conn.welcome = 'Yahh! Beban Join '
   conn.bye = 'Sipp! Beban out kemna mental ?'
   conn.spromote = '@user sekarang admin!'
