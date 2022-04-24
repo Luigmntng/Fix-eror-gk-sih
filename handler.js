@@ -708,7 +708,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'BEBAN JOIN') :
                                 (chat.sBye || this.bye || conn.bye || 'BEBAN LEFT'))
-                                this.sendButtonImg(id, await(await fetch(pp)).buffer(), text, '', "INGYAH", "Nah bagus kalo out", null)
+                                this.sendButtonImg(id, await(await fetch(pp)).buffer(), text, '', "BEBAN MENDING OUT", "Nah bagus kalo out", null)
                                 }
                     }
                 }
@@ -746,8 +746,8 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh Sepuh Bot',
-        owner: 'Perintah ini hanya dapat digunakan oleh Pembuat',
+        rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
+        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
         premium: 'Perintah ini hanya untuk member _*Premium*_ !',
         group: 'Perintah ini hanya dapat digunakan di grup!',
