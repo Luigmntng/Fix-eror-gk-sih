@@ -706,7 +706,7 @@ module.exports = {
                             pp = await this.profilePictureUrl(user, 'image')
                         } catch (e) {
                         } finally {
-                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'BEBAN JOIN')) :
+                            text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'BEBAN JOIN') :
                                 (chat.sBye || this.bye || conn.bye || 'BEBAN LEFT'))
                                 this.sendButtonImg(id, await(await fetch(pp)).buffer(), text, '', "INGYAH", "Nah bagus kalo out", null)
                                 }
