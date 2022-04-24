@@ -71,14 +71,14 @@ Simple wa md
 
 ~ Selamat Memakai~
 
-A : bg Luwh whibuh yh ?
+
 
 
 
 
 
  [![AhmdLui](https://github.com/AlyaaXd.png?size=100)](https://github.com/Luigmntng) 
-----|----
+
 [AhmdLui](https://github.com/Luigmntng) 
  Creator 
 
