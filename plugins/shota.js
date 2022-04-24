@@ -1,14 +1,11 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix, command }) => {
      m.reply('tunggu...')
-  let res = `https://server-api-rey.herokuapp.com/api/wallpaper/loli?apikey=apirey`
-  await conn.sendButtonImg(m.chat, res, 'Adik saya nih', 'By Lui', 'Next', `.loli`, m, false)
+  let res = `https://server-api-rey.herokuapp.com/api/wallpaper/shota?apikey=apirey`
+  await conn.sendButtonImg(m.chat, res, 'Adik saya nih', 'By Lui', 'Next', `.shouta`, m, false)
 }
-handler.help = ['shouta', 'sota', 'shota', 'souta']
+handler.help = ['shouta']
 handler.tags = ['anime']
-handler.command = /^(shota|souta|sota|shota)$/i
+handler.command = /^(shouta)$/i
 
 module.exports = handler
-
-
-
