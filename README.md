@@ -27,16 +27,16 @@
 > pkg install bash
 > pkg install ffmpeg
 > pkg install libwebp
-> git clone https://github.com/Luigmntng/SoikemV2
-> cd SoikemV2
+> git clone https://github.com/Luigmntng/Fix-eror-gk-sih
+> cd Fix-eror-gk-sih
 > npm i
-> node run.js
+> node index
 # Untuk Sdcard (File Sudah Di Download)
 > cd /sdcard
-> cp -r SoikemV2 $HOME
-> cd SoikemV2
+> cp -r Fix-eror-gk-sih $HOME
+> cd Fix-eror-gk-sih
 > npm i
-> node run.js
+> node index
 ```
 
 # Run On Heroku
